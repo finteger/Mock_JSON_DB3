@@ -6,7 +6,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 8080;
 
 //Setting up view engine
-app.set("view engines", "ejs");
+app.set("view engine", "ejs");
 app.set("views", "./views");
 
 //Using express.Router() to organize routes
