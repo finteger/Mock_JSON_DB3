@@ -11,6 +11,8 @@ router.use(express.urlencoded({extended: true}));
 
 //create new user route
 router.post("/users", userController.createUser);
+//update user
+router.post("/users/:id/update", userController.updateUser);
 
 
 //Render the view
