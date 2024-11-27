@@ -46,7 +46,7 @@ async function updateUser(req, res){
       //update the user object fields with values from the req.body (form data incoming)
       if(user){
         user.username = req.body.new_username || user.username;
-        user.first_name = req.body.first_name || user.first_name;
+        user.first_name = req.body.new_first_name || user.first_name;
         user.email = req.body.new_email || user.email;
 
         await writeData(data);

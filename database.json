@@ -1,3 +1,10 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": 1,
+      "username": "tnash",
+      "first_name": "Todd",
+      "email": "todd.nash@rdpolytech.ca"
+    }
+  ]
 }
