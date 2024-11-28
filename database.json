@@ -5,6 +5,24 @@
       "username": "tnash",
       "first_name": "Todd",
       "email": "todd.nash@rdpolytech.ca"
+    },
+    {
+      "id": 2,
+      "username": "JoeDoe",
+      "first_name": "Joe",
+      "email": "joe.doe@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "jrob",
+      "first_name": "Rob",
+      "email": "jake.rob@gmail.com"
+    },
+    {
+      "id": 4,
+      "username": "jdoe",
+      "first_name": "jane",
+      "email": "jane.doe@gmail.com"
     }
   ]
 }
